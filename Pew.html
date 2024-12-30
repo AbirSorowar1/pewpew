@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="project.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar a {
+            color: white !important;
+        }
+
+        .banner-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bg.avif') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+        }
+
+        .banner-section .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        .service-card {
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" style="width: 50px;"> Abir Boss
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Phases</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner-section text-center">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <h1 class="display-3">HI! I'M Abir Sorowar</h1>
+            <p class="lead">Web Developer || React Developer || Programmer</p>
+            <p>
+                I am a passionate developer with expertise in various technologies. Let's work together to build something amazing!
+            </p>
+            <div>
+                <a href="#" class="btn btn-primary">HIRE ME</a>
+                <a href="#" class="btn btn-outline-light">SEE PROJECT</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <img src="marketing.JPG" class="card-img-top" alt="Marketing">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Helping businesses grow with innovative marketing strategies.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <img src="web-dev.jpg" class="card-img-top" alt="Web Development">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Building responsive and dynamic websites tailored to your needs.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <img src="seo.jpeg" class="card-img-top" alt="SEO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">SEO</h5>
+                            <p class="card-text">Optimizing your online presence to rank higher in search engines.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form class="text-center">
+                <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+                <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+                <textarea class="form-control mb-3" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 Abir Sorowar | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 44, 44);
+    padding: 70px;
+}
+
+.logo-container {
+    width: 100px; /* Adjust width as needed */
+}
+
+.logo-container img {
+    width: 100%; /* Ensure the image scales properly within its container */
+    height: auto;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+li:hover {
+    color: rgba(0, 0, 255, 0.173);
+    cursor: pointer;
+}
+
+.menu-container {
+    display: flex;
+    gap: 25px;
+}
+
+.banner-img {
+    width: 350px;
+    height: 500px; /* Force the height to match */
+    display: block;
+    margin-left: auto;
+}
+
+
+
+.banner-left {
+    width: 400px;
+    margin: auto;
+}
+.banner-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /* background-image: url(bg.avif); */
+    
+
+}
+.banner-right {
+    width: 30%;
+
+    margin: auto;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    color: rgb(31, 1, 1);
+}
+.btn-hire-btn{
+    
+}
+.Title{
+    font-size: 45px;
+}
+.Service-container{
+    margin-top: 30px;
+}
+.Service-Title{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+.service-card{
+
+    width: 600px;
+    height: 500px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align: center;
+}
+.abir_img{
+    width: 250px ;
+}
+
+.Service-card-btn{
+    padding: 15px 25px;
+    background-color: rgb(44, 37, 37);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.service-desk{
+    margin: 5px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contuct_us{
+    padding: 50px;
+    box-shadow: 4px 4px 8px gray;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    /*/width: 75%;
+    margin: auto;/*/
+    margin-top: 30px;
+}
+.input_box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+}
+.msg{
+    width: 40%;
+    height: 100px;
+    margin-top: 15px;
+}
+.submit{
+    width:25% ;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
